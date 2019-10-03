@@ -1,15 +1,16 @@
-Spark Jobs for Kubernetes based on patter Operatot
+Test project for developing
+Spark Jobs for Kubernetes based on pattern Operator
 
 First read this: 
 https://github.com/GoogleCloudPlatform/spark-on-k8s-operator/
 
+Below my notes: 
 
 //Kubernets
 kubectl cluster-info
 //View all workloads & Services on cluster
 kubectl get pods
 kubectl get all
-
 
 //helm Initialization
 helm init 
