@@ -95,6 +95,7 @@ gsutil cp gs://abelash-spark-apps/jars/* ~/sparkoperator/my-spark-docker/jars/
 cd ~/sparkoperator/my-spark-docker/
 docker build -t gcr.io/my-project-app-engint/sparkoperator:abelashapps .
 docker push gcr.io/my-project-app-engint/sparkoperator:abelashapps
+
 //RUN Project on Kubernetes 
 kubectl apply -f ~/sparkoperator/myexamples/spark-pi-abelashapps.yaml 
 //Jump into the Container 
